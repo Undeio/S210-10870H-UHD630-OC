@@ -1,0 +1,2 @@
+# S210-10870H-BCM94360Z3-OC
+Hackintosh 配置文件
