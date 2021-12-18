@@ -105,7 +105,7 @@ OC 版本：0.76（RELEASE Versions）；
    - HDMI 旁边的 USB2.0 居然占用了一个 3.0 通道，可删除；
    - type-c 正插反插会占用两个 3.0，但只占用一个 2.0，可删除不用的 2.0；
    - 当前 USBMap.kext 删除了 USB2.0 占用的 3.0 端口；
-3. 定制 USB 请注意：解除端口数量限制的`XhciPortLimit`选项在 BigSur 上无效；
+3. 定制 USB 请注意：解除 USB 端口数量限制的`XhciPortLimit`选项在 BigSur 上无效，且勾选☑️后会导致蓝牙被禁用（有可能是个例）；
 
 4. 想要动手尝试，定制属于自己的配置文件，请遵循[Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#intel-bios-settings)中`Intel Desktop config.plist`下`coffee-lake`的配置说明，即[Desktop Coffee Lake](https://dortania.github.io/OpenCore-Install-Guide/config.plist/coffee-lake.html#starting-point)的详细说明；
 5. 自定义内存
