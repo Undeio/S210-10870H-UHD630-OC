@@ -2,7 +2,16 @@
 
 当前配置为 Catalina 10.15.7（19H15）的配置，要使用 BigSur，只需作些许改动即可；
 
-OC 版本：0.76；
+OC 版本：0.76（RELEASE Versions）；
+
+要启用跑代码模式，请执行以下操作：
+
+1. 替换`EFI/BOOT/BOOTx64.efi`为 DEBUG 版本；
+2. 替换`EFI/OC/Drivers/OpenRuntime.efi`为 DEBUG 版本；
+3. 替换`EFI/OC/OpenCore.efi`为 DEBUG 版本；
+4. 启用`Misc 设置`中`Debug`选项下的`AppleDebug`；
+5. 请将`Misc 设置`中`Debug`选项下的`Target`设置为 67；
+6. 在`NVRAM 设置`中`Add`选项下`4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14`条目的`boot-args`中添加`-v`参数；
 
 ---
 
