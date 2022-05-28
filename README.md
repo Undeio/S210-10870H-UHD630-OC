@@ -12,7 +12,7 @@
 
 与商家沟通后，邮寄、检测，目前确认芯片组损坏，CPU 未知；
 
-经过商家的斡旋，厂商同意有偿售后，由现在的`HM470 + 10870H`更换至`CM246 + E2267M`，等机器回来新开存储库更新；
+经过商家的斡旋，厂商同意有偿售后，由现在的`HM470 + 10870H`更换至`CM246 + E2276M`，等机器回来新开存储库更新；
 
 ### Old's - 2022.4.30
 
@@ -63,7 +63,7 @@
 | :--------: | :------------: | :------------------------------------------------------------------------------------------------------------------------: |
 |    机型    |      S210      |                                                          双影王族                                                          |
 |    BIOS    |    AMI 5.17    |                                                         2020/04/13                                                         |
-|   芯片组   |     QM480      | [Intel® HM470 Chipset](https://www.intel.cn/content/www/cn/zh/products/sku/203697/intel-hm470-chipset/specifications.html) |
+|   芯片组   |     HM470      | [Intel® HM470 Chipset](https://www.intel.cn/content/www/cn/zh/products/sku/203697/intel-hm470-chipset/specifications.html) |
 |    CPU     |     10870H     |                                                                                                                            |
 |    内存    |    16G x 2     |                                                           雷克沙                                                           |
 |    磁盘    |      512G      |                                                            Team                                                            |
